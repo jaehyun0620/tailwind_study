@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite
+dist/
+.vite/
+
+# Tailwind JIT cache
+.tailwind/
+
+# 환경 설정
+.env
+.env.local
+.env.*.local
+
+# OS 별
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.iml
+
+# log
+logs/
+*.log
