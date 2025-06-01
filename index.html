@@ -8,11 +8,42 @@
   </head>
   <body>
 
-    <div class="m-5 mx-10 w-64 h-64 bg-blue-400 p-5 px-10">111</div>
-    <div class="bg-blue-400 w-full">안녕</div>
-    <div class="bg-blue-400 h-64 w-64 cursor-pointer text-[50px] font-[100] text-pink-400 my-4">111</div>
-    <div class="bg-blue-400 h-64 w-64 flex items-center justify-center">111</div>
-    <div class="card">hello world</div>
+    <div class="h-[750px] bg-green-400 flex flex-col gap-4 justify-center">
+      <div class="w-64 h-64 bg-blue-400 flex justify-center items-center">111</div>
+      <div class="w-64 h-64 bg-blue-400 flex justify-center items-center">111</div>
+    </div>
+    <div class="cursor-pointer w-64 h-64 bg-blue-400 my-10 hover:bg-black hover:text-white font-bold">111</div>
+
+    <div class="w-[200px] h-[200px] relative">
+      <img class="w-full h-full" src="https://image.bugsm.co.kr/album/images/500/205370/20537040.jpg"/>
+      <div class="w-full h-full bg-black opacity-10 absolute top-0"></div>
+      <div class="w-full h-full absolute top-0 bg-gradient-to-t from-black"></div>
+    </div>
+
+    <section class="flex bg-indigo-300 flex-row items-center h-[300px] justify-between group">
+      <div class="flex flex-row gap-3 group-hover:bg-red-600">
+        <div class="h-[150px] w-4 bg-white"></div>
+        <div class="h-[150px] w-4 bg-white"></div>
+        <div class="h-[150px] w-4 bg-white"></div>
+        <div class="h-[150px] w-4 bg-white"></div>
+      </div>
+
+      <div class="flex flex-row bg-black justify-between">
+        <div class="h-[200px] w-[200px] rounded-full border-4 border-black text-white flex justify-center items-center
+          bg-red-500 transition duration-500 ease-linear  hover:rotate-2 hover:relative top-3">123</div>
+        <div class="h-[200px] w-[200px] rounded-full border-4 border-black bg-red-500 transition hover:bg-white"></div>
+        <div class="h-[200px] w-[200px] rounded-full border-4 border-black bg-red-500 transition hover:bg-white"></div>
+      </div>
+
+      <div class="flex flex-row gap-3">
+        <div class="h-[150px] w-4 bg-white"></div>
+        <div class="h-[150px] w-4 bg-white"></div>
+        <div class="h-[150px] w-4 bg-white"></div>
+        <div class="h-[150px] w-4 bg-white"></div>
+      </div>
+    </section>
+
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
